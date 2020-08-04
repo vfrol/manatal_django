@@ -1,0 +1,7 @@
+Django
+psycopg2
+djangorestframework
+requests
+django-environ
+drf-nested-routers
+django-filter
