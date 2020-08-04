@@ -17,10 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 from .router import urlpatterns as api_urls
-
+from . import swagger
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(api_urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
-]
+] + swagger.urlpatterns

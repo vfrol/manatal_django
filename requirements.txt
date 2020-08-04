@@ -1,6 +1,7 @@
 Django
 psycopg2
 djangorestframework
+drf-yasg
 requests
 django-environ
 drf-nested-routers
